@@ -13,6 +13,15 @@ img{
   margin-bottom: 1%;
 }
 
+.cardC{
+    display: flex;  
+    flex-direction: column;
+    margin-left:5%;
+    margin-right:5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
 .row{
   display: flex;  
   flex: 1;
@@ -124,3 +133,11 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.v-line{
+    border-left: thick solid #000;
+    height:30%;
+    left: 50%;
+    position: absolute;
+   }
+   
